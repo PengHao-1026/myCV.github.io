@@ -1,0 +1,86 @@
+/*視窗滾動條*/
+::-webkit-scrollbar {
+  width: 5px; /* 滾動條寬度 */
+}
+
+/* 滾動條寬度滑塊 */
+::-webkit-scrollbar-thumb {
+  background-color: #888; /* 滑塊颜色 */
+  border-radius: 5px; /* 滑塊圓角 */
+}
+
+/* 滑鼠hover的效果 */
+::-webkit-scrollbar-thumb:hover {
+  background-color: #555; /* 滑塊hover的顏色 */
+}
+
+/* 滾條軌道顏色 */
+::-webkit-scrollbar-track {
+  background-color: #000000; 
+}
+
+.pic{
+	width: 100%;
+	height: auto;
+}
+
+/*背景顏色*/
+.bg-212121{
+	background-color: #212121!important;
+}
+.bg-262626{
+	background-color: #262626;
+}
+.bg-orange{
+	background-color: #FF3600!important;
+}
+.bg-424242{
+	background-color: #424242;
+}
+.part-1{
+	background-image: url("../images/hero_banner_ps4.jpg");
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+/*文字*/
+.super-big-text{
+	font-size:120px!important;
+	color: #FF3600;
+}
+.text-orange{
+	color: #ff3600!important;
+}
+.text-white-70{
+	color: rgba(255,255,255,0.70);
+}
+.text-white-90{
+	color: rgba(255,255,255,0.90);
+}
+
+/*進度條*/
+.progress {
+	height: .8rem!important;
+	font-size: .4rem!important;
+	font-weight: bold!important;
+    background-color: #101010!important;
+}
+
+/*按鈕*/
+.btn-orange{
+	background-color: #ff3600!important;
+	transition:all .3s;
+}
+
+.btn-orange:hover{
+	background-color: #CB3300!important;
+}
+
+.btn-right{
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+}
+
+.card{
+	border-radius: 10px!important;
+}

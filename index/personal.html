@@ -1,0 +1,235 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>個人履歷</title>
+<link rel="stylesheet" href="scss/personal.css" type="text/css">
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css">
+<script src="js/jquery3.7.0.min.js"></script>
+<script src="js/personal.js"></script>
+</head>
+
+<body>
+	
+<!--導覽列-->
+<nav class="navbar navbar-expand-lg navbar-dark bg-orange-gradient fixed-top" id="colorChangeElement">
+  <div class="container-fluid">
+    <a class="navbar-brand mx-5 text-dark fw-bold" href="#">PENG</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+		
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link active mx-2 fw-bold" aria-current="page" href="#">首頁</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-1 fw-bold" href="#about-me">我的簡介</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link mx-1 fw-bold" href="#skill">我的技能</a>
+        </li>
+		 <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle fw-bold" href="#work" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+           網頁作品集
+          </a>
+          <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+            <li><a class="dropdown-item" href="#work">Urban Oucast 戶外用品網站</a></li>
+            <li><a class="dropdown-item" href="#work">台東熱氣球網站</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+	
+<!--第一部分-->
+<div class="container-fluid bg-pic" style="height: 100vh;position: relative;">
+
+	<div class="row h-100">
+		<div class="col-2"></div>
+		<div class="col-12 col-sm-4 text-light d-flex flex-column justify-content-center h-100 fade-in-text ">
+			<h6 class="fw-bold text-white-70" style="z-index: 2;">Hi there! I'm</h6>
+			<ul class="list-inline" style="z-index: 2;">
+				<li class="list-inline-item display-6 fw-bold"><span class="super-big-text">P</span>ENG&nbsp;&nbsp;<span class="super-big-text">H</span>AO</li>
+				<li class="list-inline-item display-5 px-3 fw-bold">彭皓</li>
+			</ul>
+			<h5 class="text-white-70 fw-bold" style="z-index: 2;">— 目前正在尋求一份關於網頁設計、網頁工程師的工作職缺</h5>
+		</div>
+		<div class="col-5 col-sm-5 d-flex align-items-end h-100 fade-in-pic"><img class="img-fluid" src="images/personal-banner-3.png" alt="banner" style="z-index: 3;"></div>
+		
+		<div class="d-sm-block col-sm-5 h-100 "><img class="h-100" src="images/train.jpg" alt="train" style="position: absolute;top: 0;right: 0;z-index: 1;" id="my-image"></div>
+		
+	<div class="bg-1 col-12 h-25" style="position: absolute;bottom: 0;right: 0;z-index: 2;"></div>	
+	</div>
+	<!--左下icon-->
+	<div class="d-flex gap-3 fade-in-pic" style="position: absolute;left: 3vh;bottom: 3vh;">
+		<a href="https://www.facebook.com/PengHao1026" target="_blank"><img class="icon" src="images/facebook.svg" width="30" height="30" alt="fb"></a>
+		<a href="https://www.instagram.com/pengh_1026/" target="_blank"><img class="icon" src="images/instagram.svg" width="30" height="30"  alt="ig" ></a>
+		<a href="https://pda.104.com.tw/profile/share/dh2i5t0XANIukXd2EiufsLIfK6P8Qt7w" target="_blank"><img class="icon" src="images/pass-fill-104.svg" width="30" height="30"  alt="104" ></a>
+	</div>
+</div>
+
+<!--關於我-->
+<div class="container-fluid bg-161616 p-0 pt-5">
+<div class="container-fluid bg-big p-0 position-relative">
+<div class="bg-2 col w-100 h-50" style="position: absolute;top: 0;right: 0;"></div>
+	
+	<div class="about-me fade-in container-fluid d-flex align-items-center pt-5" id="about-me">
+		<div class="row mt-5 py-sm-5 bg-gray shadow position-relative w-75 mx-auto h-100 scale rounded ">
+			<div class="ball bg-gray mx-auto d-flex flex-column justify-content-center align-items-center" style="z-index: 3;">
+				<img src="images/person-fill-white-sqaure.svg" width="70" height="70" alt="person">
+				<h5 class="fw-bold px-3 pt-3 text-light">深入瞭解我</h5>
+			</div>
+
+			<div class="col-12 col-sm-5 py-5 py-sm-4 mx-sm-4 d-flex align-items-center"><img class="pic shadow rounded" src="images/363766924_2272795889578778_2704140278256804798_n.jpg" alt=""></div>
+			<div class="col-12 col-sm-6 bg-gray d-flex justify-content-center flex-column " >
+				<h5 class="text-light fw-bold p-2">我善於溝通、協調解決問題</h5>
+				<p class="text-white-70 text-justify">第一份工作在台東知本老爺大酒店，年資三年，能獨立完成作業。雖然在工作中發現旅宿業不是自己熱情所在，但也持續穩定工作三年，完成許多客訴以及主管交派的事件。</p>
+				<p class="text-white-90 py-3 text-justify">離開旅宿業之後，參加政府與中國文化大學合作舉辦的全方位多媒體課程，期間對於網頁設計產生濃厚興趣，並且積極學習，期間學會HTML、CSS、Bootsrtap、Jquery等等網頁相關技能，也自己產出了一些專案作品，希望之後能投入網頁前端設計行業，能夠完成公司交派之任務。</p>
+				<div class="row">
+					<div class="col-4 col-sm-2 text-orange fw-bold py-1">姓名 :</div>
+					<div class="col-8 col-sm-4 text-white-70 py-1">彭皓</div>
+					<div class="col-4 col-sm-2 text-orange fw-bold py-1">E-mail :</div>
+					<div class="col-8 col-sm-4 text-white-70 py-1">linken0508@gmail.com</div>
+
+					<div class="col-4 col-sm-2 text-orange fw-bold">連絡電話 :</div>
+					<div class="col-8 col-sm-4 text-white-70">0966-897550</div>
+					<div class="col-4 col-sm-2 text-orange fw-bold">通訊地址 :</div>
+					<div class="col-8 col-sm-4 text-white-70">新竹縣寶山鄉雙園路***</div>
+				</div>
+			</div>
+		</div>
+	</div>	
+	<!--技能-->
+	<div class="fade-in container-fluid" style="height: 70vh;" id="skill">
+
+		<div class="row py-5 bg-pic-2 shadow position-relative w-75 mx-auto h-100 d-flex justify-content-around scale rounded">
+			<div class="ball bg-pic-2 mx-auto d-flex flex-column justify-content-center align-items-center">
+				<img src="images/tools-white.svg" width="70" height="70" alt="person">
+				<h5 class="text-light fw-bold px-3 pt-3">我的技能</h5>
+			</div>
+
+			<div class="col-5 d-flex justify-content-center flex-column">
+				<div class="web d-flex justify-content-center pb-5 align-items-center">
+					<img src="images/display.svg" alt="" width="30" height="30">
+					<h4 class="text-light fw-bold px-3 pt-2">網站設計</h4>
+				</div>
+
+				<p class="text-light mb-1 fw-bold">HTML</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">CSS</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">Bootsrtap</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">Jquery</p>
+				<div class="progress mb-5">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-white-70 text-justify">目前擁有 HTML、CSS、以及 Bootstrap 技能，能運用在各種情況的切版上， jQuery 與 JavaScript 處於學習階段，對於網頁中的動畫及互動性有濃厚的興趣，我的未來目標是成為一名卓越的前端工程師，我已經開始思考著如何將前端與後端更緊密地連接起來，以實現更豐富的網頁應用。</p>
+			</div>
+
+			<div class="col-5 d-flex justify-content-center flex-column">
+				<div class="web d-flex justify-content-center pb-5 align-items-center">
+					<img src="images/pencil-fill.svg" alt="" width="30" height="30">
+					<h4 class="text-light fw-bold px-3 pt-2">平面設計</h4>
+				</div>
+
+				<p class="text-light mb-1 fw-bold">PhotoShop</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">Illustrator</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 100%" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">InDesign</p>
+				<div class="progress mb-4">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 50%" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-light mb-1 fw-bold">Figma</p>
+				<div class="progress mb-5">
+				<div class="progress-bar bg-orange fw-bold" role="progressbar" style="width: 75%" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100"></div>
+				</div>
+				<p class="text-white-70 text-justify">Adobe家族的軟體都有認識，平面設計技能會使用PhotoShop、Illustrator製圖，作品網頁中橫幅廣告、商品圖片、背景大圖等等都是自行獨立製作。UI平面設計技能會使用Figma做事先規劃，規劃架構、層級、物件位置等等，再由切版轉化為可運作網頁。</p>
+			</div>
+			
+		</div>
+	</div>	
+
+	<!--我的作品-->	
+	<div class="fade-in container-fluid pb-5" style="height: 85vh;" id="work">
+
+		<div class="row py-5 bg-gray shadow position-relative w-75 mx-auto h-100 d-flex justify-content-around scale rounded">
+			<div class="ball bg-gray mx-auto d-flex flex-column justify-content-center align-items-center">
+				<img src="images/image-fill.svg" width="70" height="70" alt="person">
+				<h5 class="text-light fw-bold px-3 pt-3">網頁作品集</h5>
+			</div>
+
+			<div class="col-5 pt-5 d-flex justify-content-center align-items-center">
+
+				<div class="card mb-3 shadow border-0 rounded scale-up">
+				  <img src="images/urban-outcast-1.png" class="card-img-top rounded-top" alt="urban outcast">
+				  <div class="card-body bg-3c3c3c rounded-bottom">
+					<h5 class="card-title fw-bold text-orange py-2">Urban Outcast 戶外用品網站</h5>
+					<p class="card-text text-white-70 text-justify">網站為戶外品牌 "Urban Outcast" 的官方網站，響應式RWD網站，裡面有包括首頁、商品頁面、最新消息頁面、品牌精神頁面、加入會員、購物車等等。</p>
+					<p class="card-text text-white-90 fw-bold text-justify">運用了HTML、CSS切版、JQUERY互動。平面設計包含FIGMA排版到網站切版、Banner設計、商品圖片P圖等等 (Photoshop、Illusrator) 。</p>
+					<div class="btn-right">
+						<a class="btn btn-orange fw-bold text-light" href="http://www.alpha101.com.tw/Group5/index.html" role="button">網頁&nbsp;<img class="pb-1" src="images/caret-right-fill-white.svg" width="20" height="20" alt="right"></a>
+					</div>
+				  </div>
+				</div>
+			</div>
+			<!--<div class="col-5 pt-5 d-flex justify-content-center align-items-center">
+				<div class="card mb-3 shadow border-0 rounded scale-up">
+				  <img src="images/ballon.jpeg" class="card-img-top rounded-top" alt="urban outcast">
+				  <div class="card-body bg-3c3c3c rounded-bottom">
+					<h5 class="card-title fw-bold text-orange py-2">台東熱氣球網站</h5>
+					<p class="card-text text-white-70 text-justify">網站為戶外品牌 "Urban Outcast" 的官方網站，響應式RWD網站，裡面有包括首頁、商品頁面、最新消息頁面、品牌精神頁面、加入會員、購物車等等。</p>
+					<p class="card-text text-white-90 fw-bold text-justify">運用了HTML、CSS切版、JQUERY互動。平面設計包含FIGMA排版到網站切版、Banner設計、商品圖片P圖等等 (Photoshop、Illusrator) 。</p>
+					<div class="btn-right">
+						<a class="btn btn-orange fw-bold text-light" href="#" role="button">網頁&nbsp;<img class="pb-1" src="images/caret-right-fill-white.svg" width="20" height="20" alt="right"></a>
+					</div>
+				  </div>
+				</div>
+			</div>-->
+		</div>
+
+	</div>
+</div>
+</div>
+
+<!--我的js-->
+<script>
+	const target1Element = document.getElementById('about-me');
+  const target2Element = document.getElementById('skill');
+  const target3Element = document.getElementById('work');
+
+  function fadeInOnScroll(targetElement) {
+    const targetPosition = targetElement.getBoundingClientRect().top;
+    const windowHeight = window.innerHeight;
+
+    if (targetPosition < windowHeight) {
+      targetElement.style.opacity = '1';
+		targetElement.style.transform = 'translateY(0)';
+    }
+  }
+
+  window.addEventListener('scroll', () => {
+    fadeInOnScroll(target1Element);
+    fadeInOnScroll(target2Element);
+    fadeInOnScroll(target3Element);
+  });
+</script>
+	
+<script src="js/bootstrap.min.js"></script>
+</body>
+</html>
